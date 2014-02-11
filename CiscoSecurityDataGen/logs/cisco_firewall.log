@@ -1,0 +1,18 @@
+Feb 10 2014 22:55:35: %ASA-5-106100: access-list inbound denied tcp outside/10.2.1.44(3154) -> asp3/195.69.148.22(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Feb 10 2014 22:55:35: %ASA-1-106021: Deny icmp reverse path check from 110.48.0.16 to 110.48.0.16 on interface outside
+Feb 10 2014 22:55:36: %ASA-5-106100: access-list inbound denied udp outside/128.241.220.82(16001) -> inside/212.31.96.19(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Feb 10 2014 22:55:36: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:12.130.60.5/6798 (12.130.60.5/7890) to outside:200.14.48.21/80 (200.14.48.21/80), destination 200.14.48.21 resolved from dynamic list: bad.example.com
+Feb 10 2014 22:55:37: %ASA-5-106100: access-list inbound denied tcp outside/41.222.128.21(135) -> inside/41.222.128.21(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Feb 10 2014 22:55:37: %ASA-6-302020: Built ICMP connection for faddr 92.1.170.135/15343 gaddr 77.73.88.21/0 laddr 77.73.88.21/0
+Feb 10 2014 22:55:38: %ASA-4-400014: IDS:2004 ICMP echo request from 69.80.0.18 to 218.30.0.15 on interface outside 
+Feb 10 2014 22:55:38: %ASA-6-302020: Built ICMP connection for faddr 141.146.8.66/15343 gaddr 41.221.240.20/0 laddr 41.221.240.20/0
+Feb 10 2014 22:55:39: %ASA-6-106015: Deny TCP (no connection) from 128.241.220.82/49827 to 217.74.144.20/80 flags ACK on interface outside
+Feb 10 2014 22:55:39: %ASA-6-302020: Built ICMP connection for faddr 110.172.192.18/15343 gaddr 110.172.192.18/0 laddr 110.172.192.18/0
+Feb 10 2014 22:55:40: %ASA-6-302015: Built inbound UDP connection 732748 for outside:128.241.220.82/49804 (128.241.220.82/49804) to inside:194.152.52.23/53 (194.152.52.23/53)
+Feb 10 2014 22:55:40: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:128.241.220.82/6798 (128.241.220.82/7890) to outside:110.16.0.14/80 (110.16.0.14/80), destination 110.16.0.14 resolved from dynamic list: bad.example.com
+Feb 10 2014 22:55:41: %ASA-6-302015: Built inbound UDP connection 732749 for outside:131.178.233.243/49804 (131.178.233.243/49804) to inside:124.162.0.16/123 (124.162.0.16/123)
+Feb 10 2014 22:55:41: %ASA-6-302015: Built inbound UDP connection 732750 for outside:87.240.128.18/49804 (87.240.128.18/49804) to inside:193.226.0.18/139 (193.226.0.18/139)
+Feb 10 2014 22:55:42: %ASA-6-302020: Built ICMP connection for faddr 91.213.8.24/0 gaddr 91.213.8.24/0 laddr 91.213.8.24/0
+Feb 10 2014 22:55:42: %ASA-6-302021: Teardown ICMP connection for faddr 91.208.0.24/0 gaddr 91.208.0.24/0 laddr 91.208.0.24/0
+Feb 10 2014 22:55:43: %ASA-6-302020: Built ICMP connection for faddr 110.52.0.15/0 gaddr 110.52.0.15/0 laddr 110.52.0.15/0
+Feb 10 2014 22:55:43: %ASA-6-302021: Teardown ICMP connection for faddr 182.61.0.16/0 gaddr 182.61.0.16/0 laddr 182.61.0.16/0

@@ -1,0 +1,1200 @@
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-106015: Deny TCP (no connection) from ###DESTIP###/49827 to ###IP###/80 flags ACK on interface outside
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732748 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter blocked black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732749 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/123 (###IP###/123)
+Aug 24 2007 10:27:22: %ASA-6-302015: Built inbound UDP connection 732750 for outside:###DESTIP###/49804 (###DESTIP###/49804) to inside:###IP###/139 (###IP###/139)
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:22: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/0 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:23: %ASA-6-302015: Built inbound UDP connection 732753 for outside:###IP###/49805 (###IP###/49805) to inside:###IP###/53 (###IP###/53)
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:24: %ASA-6-302021: Teardown ICMP connection for faddr ###IP###/15343 gaddr ###IP###/0 laddr ###IP###/0
+Aug 24 2007 10:27:29: %ASA-4-400014: IDS:2004 ICMP echo request from ###IP### to ###IP### on interface outside
+Aug 24 2007 10:27:29: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:29: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###IP###(39675) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-400014: IDS:2004 ICMP echo request from ###DESTIP### to ###IP### on interface outside 
+Aug 24 2007 10:27:31: %ASA-4-106023: Deny icmp src outside:###IP### dst inside:###DESTIP### (type 8, code 0) by access-group "OUTSIDE" [0xd3f63b90, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter permitted black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Aug 24 2007 10:27:31: %ASA-6-106100: access-list OUTSIDE denied tcp outside/###DESTIP###(39676) -> inside/###IP###(80) hit-cnt 1 first hit [0x22e8ac21, 0x0]
+Oct 14 2008 00:00:34: %ASA-5-106100: access-list inbound denied tcp outside/###DESTIP###(3154) -> asp3/###IP###(32005) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Oct 14 2008 00:00:47: %ASA-1-106021: Deny icmp reverse path check from ###IP### to ###IP### on interface outside
+Oct 14 2008 00:00:49: %ASA-5-106100: access-list inbound denied udp outside/###DESTIP###(16001) -> inside/###IP###(56743) hit-cnt 1 300-second interval [0x91c26a3, 0x0]
+Aug 24 2007 10:27:31: %ASA-4-338002: Dynamic Filter monitored black listed TCP traffic from inside:###DESTIP###/6798 (###DESTIP###/7890) to outside:###IP###/80 (###IP###/80), destination ###IP### resolved from dynamic list: bad.example.com
+Oct 14 2008 00:00:53: %ASA-5-106100: access-list inbound denied tcp outside/###IP###(135) -> inside/###IP###(1922) hit-cnt 1 first hit [0x91c26a3, 0x0]
+Aug 24 2007 10:27:22: %ASA-6-302020: Built ICMP connection for faddr ###DESTIP###/15343 gaddr ###IP###/0 laddr ###IP###/0
