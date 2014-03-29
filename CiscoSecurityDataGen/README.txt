@@ -9,20 +9,23 @@ Usage:
     * control-C when yuo have enough data
     * output will be in logs
 
-CiscoFirewall.py
-    Reads from data/:
-        Templates: cisco_asa.log, bad_wsa_traffic
-        Lists: internal, external, users
-    Writes to logs/:
-        cisco_firewall.log, wsa_web_proxy.log
-
 CiscoIPS.py
+    * Correpsonds to Silk parsing config
     Reads from data/:
         Lists: internal, external, ips_sigs
     Hard-coded lists:
         hostId(s), mars_category(ies), severity(in getCurrentEvent)
     Writes to logs/:
         ips_sdee.log.ips.secure.acme
+    Parse with:
+        logstash_configs/silk_ciscoips
+
+CiscoFirewall.py
+    Reads from data/:
+        Templates: cisco_asa.log, bad_wsa_traffic
+        Lists: internal, external, users
+    Writes to logs/:
+        cisco_firewall.log, wsa_web_proxy.log
 
 CiscoIronPortWeb.py
     Reads from data/:
